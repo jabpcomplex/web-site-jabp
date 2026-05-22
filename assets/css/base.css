@@ -1,0 +1,22 @@
+/* base.css - variables, tipografías y reset ligeros */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --bg-color: #121212;
+  --accent-color: #d4af37; /* Dorado */
+  --text-color: #f4f4f4;
+  --secondary-color: #1e1e1e;
+}
+
+* { box-sizing: border-box; }
+html,body { height: 100%; }
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+h1,h2,h3,h4 { font-family: 'Merriweather', serif; color: var(--accent-color); }
+
+a { color: var(--accent-color); }

@@ -1,0 +1,31 @@
+# Datos y secretos
+.env
+.env.local
+*.csv
+*.parquet
+*.jsonl
+data/
+!data/.gitkeep
+
+# Entornos virtuales y dependencias
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Sistemas operativos
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Resultados temporales y logs
+logs/
+*.log
+tmp/
+
+# Contexto para LLM
+LLM_CONTEXT.md
+prompts.md

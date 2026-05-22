@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reseñas Críticas</title>
+   <link rel="stylesheet" href="../assets/css/main.css" />
+   
+</head>
+<body>
+<header class="header">
+    <img src="../img/jabpcomplex_automata_2.gif" alt="Logo" class="logo" />
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Reseñas Críticas</a></li>
+            <li><a href="../programacion/">Programación</a></li>
+            <li><a href="../investigacion/">Investigación Científica</a></li>
+            <li><a href="../cv/">CV</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-container">
+    <section class="content-section">
+        <h2>Reseñas Críticas</h2>
+        <p>Lista de reseñas disponibles:</p>
+        <ul id="lista-reseñas" class="doc-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>2025 jabpcomplex ©opyleft.</p>
+</footer>
+
+<script>
+    // Archivos disponibles (añade aquí tus reseñas .md)
+    const reseñas = [
+        { nombre: "Personalizar el menu de Nautilus para agregar opción de crear archivos txt y md", archivo: "viewer.html?file=post_5_crear_archivo_txt_md.md" },
+        { nombre: "Mostrar asteriscos al introducir una contraseña en la terminal de GNU/Linux", archivo: "viewer.html?file=post_3_mostrar_asteriscos.md" },
+        { nombre: "¿Por qué cambiarte a GNU/Linux?", archivo: "viewer.html?file=post_2_porq_gnu_linux.md" },
+        { nombre: "Primeros pasos para cambiarte a GNU-Linux", archivo: "viewer.html?file=post_1_primeros_pasos_gnu-linux.md" },
+        { nombre: "¿Puede la comida de un hombre en Wuhan (China) causar una pandemia global?", archivo: "viewer.html?file=article_1_enpoli.md" }
+    ];
+
+    const lista = document.getElementById("lista-reseñas");
+    reseñas.forEach(doc => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${doc.archivo}" target="_blank">${doc.nombre}</a>`;
+        lista.appendChild(li);
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Investigación Científica</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+<header class="header">
+    <img src="../img/jabpcomplex_automata_2.gif" alt="Logo" class="logo" />
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../reseñas/">Reseñas Críticas</a></li>
+            <li><a href="../programacion/">Programación</a></li>
+            <li><a href="#">Investigación Científica</a></li>
+            <li><a href="../cv/">CV</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-container">
+    <section class="content-section">
+        <h2>Investigación Científica</h2>
+        <p>Artículos científicos publicados:</p>
+        <ul id="lista-articulos" class="doc-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>2025 jabpcomplex ©opyleft.</p>
+</footer>
+
+<script>
+    // Archivos PDF de artículos científicos
+    const articulos = [
+        { nombre: "Análisis de datos geoespaciales", archivo: "analisis_geoespacial.pdf" },
+        { nombre: "Modelado predictivo urbano", archivo: "modelo_predictivo.pdf" },
+        { nombre: "Detección de patrones espaciales", archivo: "patrones_espaciales.pdf" }
+    ];
+
+    const lista = document.getElementById("lista-articulos");
+    articulos.forEach(doc => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${doc.archivo}" target="_blank">${doc.nombre}</a>`;
+        lista.appendChild(li);
+    });
+</script>
+</body>
+</html>

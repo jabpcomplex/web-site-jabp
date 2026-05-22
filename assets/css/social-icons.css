@@ -1,0 +1,77 @@
+
+/* Social Media Icons - Custom Implementation */
+
+/* Contenedor base para íconos de redes sociales */
+[class^="icon icon--"], [class*=" icon icon--"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* Hover effect */
+[class^="icon icon--"]:hover,
+[class*=" icon icon--"]:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+
+/* Íconos individuales */
+.icon--instagram {
+  background-image: url('./img/social-media/instagram.webp');
+}
+
+.icon--twitter {
+  background-image: url('./img/social-media/X-twitter.webp');
+}
+
+.icon--linkedin {
+  background-image: url('./img/social-media/linkedin.webp');
+}
+
+.icon--github {
+  background-image: url('./img/social-media/github.webp');
+}
+
+.icon--youtube {
+  background-image: url('./img/social-media/youtube.webp');
+}
+
+/* Tamaños opcionales */
+.icon--sm {
+  width: 1.75em;
+  height: 1.75em;
+}
+
+.icon--lg {
+  width: 3.5em;
+  height: 3.5em;
+}
+
+.icon--xl {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+/* Contenedor de iconos */
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Accesibilidad: ocultar texto si lo hay */
+.icon i {
+  display: none;
+}
+

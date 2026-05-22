@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Personal</title>
+    <!-- App styles (modular) -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Encabezado con logo -->
+    <header class="header">
+        <img src="img/jabpcomplex_automata_2.gif" alt="Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="reseñas/">Reseñas Críticas</a></li>
+                <li><a href="programacion/">Programación</a></li>
+                <li><a href="investigacion/">Investigación Científica</a></li>
+                <li><a href="cv/">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login -->
+    <main class="main-container">
+        <section class="login-section">
+            <h1>Bienvenido</h1>
+            <p>Inicia sesión para acceder al contenido exclusivo</p>
+            <form class="login-form">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Ingresar</button>
+            </form>
+            <div class="donation">
+                <p>Invítame un café ☕</p>
+                <a href="https://www.buymeacoffee.com/tuusuario" target="_blank" class="donate-btn">Donar</a>
+            </div>
+        </section>
+
+        <!-- Agregamos un carrusel-->
+        <!-- Swiper.js para el carrusel premium. -->
+
+        <section>
+            <h2>📌 Últimos 5 artículos y reseñas</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper" id="carrusel-list"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <!-- App script (ES modules, modularizado) -->
+        <script type="module" src="assets/js/main.js"></script>
+
+
+          <!-- seccion de mis intereses -->
+        <section>
+            <h2>🎯 Mis intereses</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;">
+                <div style="background:#1e1e1e;padding:1rem;border-radius:10px;">
+                    <h3>🔗 Ciencia de Redes</h3>
+                    <p>Análisis de sistemas complejos y estructuras de redes para entender interacciones.</p>
+                </div>
+                <div style="background:#1e1e1e;padding:1rem;border-radius:10px;">
+                    <h3>🤖 Inteligencia Artificial</h3>
+                    <p>Desarrollo de modelos predictivos y algoritmos de aprendizaje automático.</p>
+                </div>
+                <div style="background:#1e1e1e;padding:1rem;border-radius:10px;">
+                    <h3>📚 Filosofía de la Ciencia</h3>
+                    <p>Reflexión sobre los fundamentos, métodos y ética en la investigación científica.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Reseñas dinámicas -->
+        <section id="resenas" class="content-section">
+            <h2>Reseñas Críticas</h2>
+            <div id="reseñas-container" class="reseñas-grid"></div>
+        </section>
+    </main>
+
+
+<footer>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <div class="icons">
+        <a href="https://www.instagram.com/jabpcomplex" class="icon icon--instagram">
+        <i class="ri-instagram-line"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCtV7m_vjP1Vk6jY42OK_qcw/"  class="icon icon--youtube">
+        <i class="ri-youtube-line"></i>
+        </a>
+        <a href="https://twitter.com/jabpcomplex" class="icon icon--twitter" >
+        <i class="ri-twitter-line"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jabpcomplex/" class="icon icon--linkedin">
+        <i class="ri-linkedin-line"></i>
+        </a>
+        <a href="https://www.github.com/jabpcomplex"  class="icon icon--github">
+            <!-- <img src="img/social-media/logo-instagram.webp" alt="GitHub" /> -->
+        <i class="ri-github-line"></i>
+        </a>
+    </div> 
+    <br>  <br> 
+
+    <p>Sitio creado por jabpcomplex - ©opyleft  2025</p>
+</footer>
+
+    <!-- legacy: script.js kept for reference but app uses assets/js/main.js -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tutoriales de Programación</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+<header class="header">
+    <img src="../img/jabpcomplex_automata_2.gif" alt="Logo" class="logo" />
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../reseñas/">Reseñas Críticas</a></li>
+            <li><a href="#">Programación</a></li>
+            <li><a href="../investigacion/">Investigación Científica</a></li>
+            <li><a href="../cv/">CV</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-container">
+    <section class="content-section">
+        <h2>Tutoriales de Programación</h2>
+        <p>Lista de tutoriales:</p>
+        <ul id="lista-tutoriales" class="doc-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>2025 jabpcomplex ©opyleft.</p>
+</footer>
+
+<script>
+    // Archivos de tutoriales (.md)
+    const tutoriales = [
+        { nombre: "Introducción a Python", archivo: "intro_python.md" },
+        { nombre: "Análisis de datos con Pandas", archivo: "pandas.md" },
+        { nombre: "Machine Learning con Scikit-learn", archivo: "ml_scikit.md" }
+    ];
+
+    const lista = document.getElementById("lista-tutoriales");
+    tutoriales.forEach(doc => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${doc.archivo}" target="_blank">${doc.nombre}</a>`;
+        lista.appendChild(li);
+    });
+</script>
+</body>
+</html>

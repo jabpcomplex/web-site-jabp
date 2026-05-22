@@ -1,0 +1,8 @@
+/* main.css - importa los fragmentos modulares del CSS */
+@import 'base.css';
+@import 'header.css';
+@import 'components.css';
+@import 'carousel.css';
+
+/* Reglas adicionales globales si son necesarias */
+a:hover { text-decoration: underline; }
