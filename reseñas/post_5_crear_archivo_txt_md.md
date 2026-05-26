@@ -37,7 +37,7 @@ Contenido:
 touch ~/archivo_creado_desde_nautilus.txt
 ```
 
-![Imagen](../img/test-sh.png)
+![Imagen](../img/post-img/post_5_/test-sh.png)
 
 ---
 
@@ -47,7 +47,7 @@ touch ~/archivo_creado_desde_nautilus.txt
 chmod +x ~/.local/share/nautilus/scripts/test.sh
 ```
 
-![Imagen](../img/test-sh_permisos.png)
+![Imagen](../img/post-img/post_5_/test-sh_permisos.png)
 
 ---
 
@@ -63,7 +63,7 @@ nautilus -q
 
 Click derecho sobre archivo → Scripts → test.sh
 
-![Imagen](https://via.placeholder.com/800x400.png?text=Menu+Scripts)
+![Imagen](https://raw.githubusercontent.com/jabpcomplex/web-site-jabp/c0c57eec7796ceb485a3bd83ec3c879c9117db23/img/post-img/post_5_/test_sh_carpeta.png)
 
 ---
 
@@ -95,10 +95,6 @@ Permisos:
 ```
 chmod +x ~/.local/share/nautilus/scripts/Crear_MD.sh
 ```
-
-![Imagen](https://via.placeholder.com/800x400.png?text=Markdown+creado)
-
----
 
 ## Problemas comunes
 
