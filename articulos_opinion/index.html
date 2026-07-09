@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reseñas Críticas</title>
+   <link rel="stylesheet" href="../assets/css/main.css" />
+   
+</head>
+<body>
+<header class="header">
+    <img src="../img/jabpcomplex_automata_2.gif" alt="Logo" class="logo" />
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Artículos de Opinión</a></li>
+            <li><a href="../publicaciones_gnulinux/">Publicaciones GNU/Linux</a></li>
+            <li><a href="../programacion/">Programación</a></li>
+            <li><a href="../investigacion/">Investigación Científica</a></li>
+            <li><a href="../cv/">CV</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-container">
+    <section class="content-section">
+        <h2>Reseñas Críticas</h2>
+        <p>Lista de reseñas disponibles:</p>
+        <ul id="lista-reseñas" class="doc-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>2025 jabpcomplex ©opyleft.</p>
+</footer>
+
+<script>
+    // Archivos disponibles (añade aquí tus reseñas .md)
+    const reseñas = [
+        { nombre: "Sobre la reunión de territorios de paz", archivo: "viewer.html?file=opinion_1.md" },
+        { nombre: "Este es un análisis crítico del Libro ", archivo: "viewer.html?file=opinion_2.md" },
+        { nombre: "Libro 2", archivo: "viewer.html?file=opinion_3.md" }
+    ];
+
+    const lista = document.getElementById("lista-reseñas");
+    reseñas.forEach(doc => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${doc.archivo}" target="_blank">${doc.nombre}</a>`;
+        lista.appendChild(li);
+    });
+</script>
+</body>
+</html>
