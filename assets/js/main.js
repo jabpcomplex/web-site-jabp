@@ -12,9 +12,9 @@ const recientes = [
 ];
 
 const resenas = [
-  { titulo: "Reseña 1", archivo: "reseñas/reseña_1.md" },
-  { titulo: "Reseña 2", archivo: "reseñas/reseña_2.md" },
-  { titulo: "Reseña 3", archivo: "reseñas/reseña_3.md" }
+  { titulo: "Documento 1", archivo: "articulos_opinion/opinion_1.md" },
+  { titulo: "Documento 2", archivo: "articulos_opinion/opinion_2.md" },
+  { titulo: "Documento 3", archivo: "articulos_opinion/opinion_3.md" }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
