@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizador de Documento</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+</head>
+<body>
+<header class="header">
+    <h1>📄 Visualizador de Documento</h1>
+</header>
+
+<main class="main-container">
+    <article id="content" class="markdown-body"></article>
+</main>
+
+<footer>
+    <p>© 2025 jabpcomplex Copyleft</p>
+</footer>
+
+<!-- Librerías -->
+<!-- Marked.js para convertir .md a HTML. -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<!-- highlight.js para resaltar código en los tutoriales. -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const file = urlParams.get('file');
+
+    fetch(file)
+      .then(res => res.text())
+      .then(md => {
+        const html = marked.parse(md, {
+          highlight: function(code, lang) {
+            return hljs.highlightAuto(code).value;
+          }
+        });
+        document.getElementById('content').innerHTML = html;
+      });
+</script>
+</body>
+</html>
