@@ -15,7 +15,7 @@
             <li><a href="../articulos_opinion/">Artículos de Opinión</a></li>
             <li><a href="../publicaciones_gnulinux/">GNU-Linux</a></li>
             <li><a href="../programacion/">Programación</a></li>
-            <li><a href="#">Investigación Científica</a></li>
+            <li><a href="#">Investigación</a></li>
             <li><a href="../cv/">CV</a></li>
         </ul>
     </nav>
@@ -23,8 +23,7 @@
 
 <main class="main-container">
     <section class="content-section">
-        <h2>Investigación Científica</h2>
-        <p>Artículos científicos publicados:</p>
+        <h2>Archivos de Investigación</h2>
         <ul id="lista-articulos" class="doc-list"></ul>
     </section>
 </main>
@@ -34,13 +33,10 @@
 </footer>
 
 <script>
-    // Archivos PDF de artículos científicos
+    // archivos md de investigación
     const articulos = [
-        { nombre: "Análisis de datos geoespaciales", archivo: "analisis_geoespacial.pdf" },
-        { nombre: "Modelado predictivo urbano", archivo: "modelo_predictivo.pdf" },
-        { nombre: "Detección de patrones espaciales", archivo: "patrones_espaciales.pdf" },
-        { nombre: "¿Puede la comida de un hombre en Wuhan (China) causar una pandemia global?", archivo: "viewer.html?file=article_1_enpoli.md" },
-        { nombre: "Historia del Web Scraping: evolución, IA y Cloudflare", archivo: "viewer.html?file=historia_web_scraping_01.md" }
+        { nombre: "¿Puede la comida de un hombre en Wuhan (China) causar una pandemia global?", archivo: "viewer.html?file=article_1_enpoli.md"},
+        { nombre: "Historia del Web Scraping: evolución, IA y Cloudflare", archivo: "viewer.html?file=historia_web_scraping_01.md"}
     ];
 
     const lista = document.getElementById("lista-articulos");
