@@ -252,3 +252,7 @@ Es posible recibir ayuda para:
 ## Conclusión 2
 
 La limitación no responde a una prohibición del web scraping como técnica, sino a evitar facilitar la evasión deliberada de mecanismos de protección como Cloudflare. En cambio, sí es posible asistir en el diseño, desarrollo y análisis de pipelines de extracción de datos cuando el acceso al contenido es autorizado o no requiere superar controles técnicos impuestos por el sitio.
+
+## Anexo técnico: Intento de Web Scraping de resultados UNAM con R
+
+[Ver anexo técnico](https://github.com/jabpcomplex/ia-examen-unam-2026/blob/main/scripts/scraping/2_Anexo_Tecnico_Diagnostico_WebScraping_UNAM_R.md)
