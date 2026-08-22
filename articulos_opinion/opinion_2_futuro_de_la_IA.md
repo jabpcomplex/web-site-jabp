@@ -2,7 +2,7 @@
 
 Por jabpcomplex el 22-Agosto-2026
 
-Las recientes declaraciones sobre los **Large Language Model** (LLM) o grandes modelos de lenguaje de codigo abierto empiezan a dilucidar bandos y a mostrar la verdaderas intenciones de las principales empresas de Inteligencia Artificial (IA), preservar el status quo y la hegemonia de EUA sobre la IA. Como si fuera un juego de poker las grandes empresas transnacionales muestran sus cartas sobre la mesa para desmostrar quién tiene la jugada ganadora. En este texto compartiré mi postura idelógica con respecto a la IA, así con suerte pueda crear una Escalera Real.
+Las recientes declaraciones sobre los **Large Language Model** (LLM) o grandes modelos de lenguaje de código abierto empiezan a dilucidar bandos y a mostrar la verdaderas intenciones de las principales empresas de Inteligencia Artificial (IA), preservar el status quo y la hegemonía de EUA sobre la IA. Como si fuera un juego de poker las grandes empresas transnacionales muestran sus cartas sobre la mesa para desmostrar quién tiene la jugada ganadora. En este texto compartiré mi postura idelógica con respecto a la IA, así con suerte pueda crear una Escalera Real.
 
 Enlistaré algunas de las declaraciones que servirán de consulta antes de entrar en materia:
 
@@ -54,29 +54,29 @@ Por eso no dejemos toda la responsabilidad a los investigadores en IA, CEO's de 
 
 ## Sobre los modelos de pesos abiertos
 
-Todas los grandes monopolios como openIA, meta o antrophic, estan a favor de crear modelos de pesos abiertos, aúnque no en los detalles técnicos, como podemos darnos cuenta al analizar las sutiles diferencias en los términos que utilizan para referirse a las mismas cosas. Por ejemplo el CEO de Meta usa el término **superinteligencia**, en la carta que Jensen Huang (CEO de Nvidia) comparte respaldado por 126 empresas de EUA usa el término **modelo de pesos abiertos** pero los dos se refieren en última instancias a los **grandes modelos de lenguaje** o loros estocásticos⁵. Lo que intentan hacer con esta elección de palabras es desligar las relaciones sociales de poder⁶ y confundir aún más de lo que ya se encuentra el nuevo proletario explotado por el capital en la nube.
+Todas los grandes monopolios como openIA, meta o antrophic, estan a favor de crear modelos de pesos abiertos, aunque no en los detalles técnicos, como podemos darnos cuenta al analizar las sutiles diferencias en los términos que utilizan para referirse a las mismas cosas. Por ejemplo el CEO de Meta usa el término **superinteligencia**, en la carta que Jensen Huang (CEO de Nvidia) comparte respaldado por 126 empresas de EUA usa el término **modelo de pesos abiertos** pero los dos se refieren en última instancia a los **grandes modelos de lenguaje** o loros estocásticos⁵. Lo que intentan hacer con esta elección de palabras es desligar las relaciones sociales de poder⁶ y confundir aún más de lo que ya se encuentra el nuevo proletario explotado por el capital en la nube.
 
 
 # Contradicciones en sus declaraciones
 
-Los capitalistas de la nube se contradicen cuando argumentan a favor de no centralizar el uso de superintenligencia o modelos de pesos abiertos porque ellos mismos en su exposición a favor del uso de modelos de pesos abiertos quieren garantizar que el gobierno de EUA sea lider en comparación con sus adversarios geopolíticos y por lo tanto centralizar el poder, es decir, que EUA sea lider no implica que centralice el poder, pero supongamos el siguiente escenario hipotético: Brasil contruye el mejor LLM de ciberseguridad, ¿A caso no es obvio que automáticamente estarían en la lista de EUA como posible terrorista para seguridad nacional de América? como argumenta Dario Amodei⁴ con respecto al PCM (Partido Comunista Chino):
+Los capitalistas de la nube se contradicen cuando argumentan a favor de no centralizar el uso de superintenligencia o modelos de pesos abiertos porque ellos mismos en su exposición a favor del uso de modelos de pesos abiertos quieren garantizar que el gobierno de EUA sea lider en comparación con sus adversarios geopolíticos y por lo tanto centralizar el poder. dicho de otro modo, que EUA sea lider no implica que centralice el poder, pero supongamos el siguiente escenario hipotético: Brasil contruye el mejor LLM de ciberseguridad, ¿A caso no es obvio que automáticamente estarían en la lista de EUA como posible terrorista para seguridad nacional de América? como argumenta Dario Amodei⁴ con respecto al PCM (Partido Comunista Chino):
 
 > "No deberíamos vender chips potentes ni equipos para fabricar chips a China y deberíamos tomar medidas enérgicas contra el contrabando desenfrenado"
 
-Estoy de acuerdo en la preocupacion de estos grupos por las asimetrías de poder entre naciones en el tema IA como amenazas en materia de:
+Estoy de acuerdo en la preocupación de estos grupos por las asimetrías de poder entre naciones en el tema IA como amenazas en materia de:
 
 - Ciberseguridad
 - Ataques biológicos
 - Rebelión de superinteligencias
 
-Es por eso que lo gobiernos del mundo deberían abogar por una institución en pro de salvaguardar los derechos de la humanidad y datos privados de los usuarios finales, que no sea la ONU (claramente). Dado que no es un organismo que se preocupe por cuidar dichos intereses, si no más bien por cuidar los interéses económicos de EUA y sus aliados. Esta hipotética institución también sería la encargada de auditar los modelos de pesos abiertos beneficiosos para el conocimiento cientifico. Y solicitar cada cierto tiempo a las empresas de modelos cerrados una rendición de cuentas para evitar las asimetrías de poder entre naciones.
+Es por eso que lo gobiernos del mundo deben abogar por una institución en pro de salvaguardar los derechos de la humanidad y datos privados de los usuarios finales, que no sea la ONU (claramente). Dado que no es un organismo que se preocupe por cuidar dichos intereses, si no más bien por cuidar los interéses económicos de EUA y sus aliados. Esta hipotética institución también sería la encargada de auditar los modelos de pesos abiertos beneficiosos para el conocimiento científico y solicitar cada cierto tiempo a las empresas de modelos abiertos y/o cerrados una rendición de cuentas para evitar las asimetrías de poder entre naciones.
 
-Incluso sería la encargada de analizar las viabilidad de la creación, remodelación, restructuración de los grandes centros de datos. Con el objetivo de que los centros de datos sean compartidos, para optimizar su uso tratando de perjudicar el suelo y el entorno en lo más mínimo. No olvidemos por ejemplo el caso de Luisiana donde Mark Zuckerberg se enfrenta a una reacción violenta tras retractarse de su promesa de crear entre 300 y 500 nuevos empleos en la construccuión de un nuevo centro de datos⁸. En este punto Sam Altam esta de acuerdo conmigo:
+Incluso sería la encargada de analizar las viabilidad de la creación, remodelación, restructuración de los grandes centros de datos. Con el objetivo de que los centros de datos sean compartidos, para optimizar su uso tratando de perjudicar el suelo y el entorno en lo más mínimo. No olvidemos por ejemplo el caso de Luisiana donde Mark Zuckerberg se enfrenta a una reacción violenta tras retractarse de su promesa de crear entre 300 y 500 nuevos empleos en la construcción de un nuevo centro de datos⁸. En este punto Sam Altam esta de acuerdo conmigo:
 
 > "Para que la prosperidad se materialice plenamente y se comparta de forma amplia, creemos que: los gobiernos podrían necesitar considerar nuevos modelos económicos que permitan a todas las personas participar en la creación de valor que se avecina"
 
 
-Estamos viviendo tiempos maravillosos, de muchos descubrimientos y asombros pero también arriban tiempos inciertos y existe la posibilidad de extinción con una guerra mundial, por qué seguir abogando por la competencia desmedida y sangrienta. Tenemos la oportunidad de elegir la solidadridad con el oro blanco, los datos, que no se logró en su momento al explotar el oro negro (el petróleo). Sin embargo las actuales acciones de EUA en latinoamerica indican todo lo contrario a los ideales de solidaridad y soberanía de los naciones.
+Estamos viviendo tiempos maravillosos, de muchos descubrimientos y asombros pero también arriban tiempos inciertos y existe la posibilidad de extinción con una guerra mundial, por qué seguir abogando por la competencia desmedida y sangrienta. Esta en nuestras manos la oportunidad de elegir la solidadridad con el oro blanco, los datos, que no se logró en su momento al explotar el oro negro (el petróleo). Sin embargo las actuales acciones de EUA en latinoamerica indican todo lo contrario a los ideales de solidaridad y soberanía de los naciones.
 
 ---
 
@@ -112,7 +112,7 @@ Llamado final Nos negamos a ser usuarios pasivos. Rechazamos ser objetos de cont
 
 1. "El tecnofeudalismo es la criada de la guerra" de Yanis Varoufakis
 2. "Superpotencias de la inteligencia artificial" de Kai-Fu Lee
-3. La diferencia fundamental entre open source y software libre, esta en sus valores, en su visión del mundo. Para el movimiento open source, la cuestión de si el software debe proporcionar el codigo fuente es una cuestión práctica, no ética. Para una exposición más detallada consulte: Introducción a [Software libre para una sociedad libre: Selección de ensayos de Richard M. Stallman_](http://shop.fsf.org/product/free-software-free-society/)
+3. La diferencia fundamental entre open source y software libre, esta en sus valores, en su visión del mundo. Para el movimiento open source, la cuestión de si el software debe proporcionar el código fuente es una cuestión práctica, no ética. Para una exposición más detallada consulte: Introducción a [Software libre para una sociedad libre: Selección de ensayos de Richard M. Stallman_](http://shop.fsf.org/product/free-software-free-society/)
 4. Jofrey Hinton y sus declaraciones para una [entrevista en youtube](https://www.youtube.com/watch?v=giT0ytynSqg).
 5. Término popularizado en [On the dangers of stochastic parrots: Can language models be too big?](dl.acm.org/doi/pdf/10.1145/3442188.3445922?utm_source=miragenews&utm_me)
 6. [IA y dialéctica: la máquina como contradicción](https://rebelion.org/ia-y-dialectica-la-maquina-como-contradiccion/)
