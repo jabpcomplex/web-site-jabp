@@ -1,6 +1,6 @@
-# Personalizar el menu de Nautilus para agregar opción de crear archivos txt y md
+# Auditoría de ZIP y Soberanía Tecnológica
 
-### Written by Julio Alberto Bautista on April 11, 2026
+### Written by Julio Alberto Bautista on 4 Noviembre, 2026
 
 Bienvenido a un nuevo post para aprender sobre un poco más sobre ciencia, tecnología y soberanía tecnológica.
 
