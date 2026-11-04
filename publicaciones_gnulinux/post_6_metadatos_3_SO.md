@@ -2,11 +2,11 @@
 
 ### Written by Julio Alberto Bautista on 4 Noviembre, 2026
 
-Bienvenido a un nuevo post para aprender sobre un poco más sobre ciencia, tecnología y soberanía tecnológica.
+Bienvenido a un nuevo post para aprender un poco más sobre ciencia, tecnología y soberanía tecnológica.
 
-Este post como todos los que realizó surgen por la necesidad de compartir la solución o esclarecimiento de un problema o duda existencial que me haya surgido.
+Este post como todos los que realizo, surge por la necesidad de compartir la solución o esclarecimiento de un problema o duda existencial que me haya surgido.
 
-Todo empezo cuando alguién me compartió un archivo **.zip** proveniente del sistema operativo MACOS y encontré la carpeta __MACOSX. Así que con la ayuda de la **AC galáctica** me propuse a investigar sobre su origen.
+Todo empezo cuando alguien me compartió un archivo **.zip** proveniente del sistema operativo MACOS y encontré la carpeta __MACOSX. Así que con la ayuda de la **AC galáctica** me propuse a investigar sobre su origen.
 
 La carpeta __MACOSX es un directorio oculto que se crea automáticamente cuando se comprimen archivos en un Mac usando la herramienta nativa de macOS.  Contiene metadatos específicos de Apple (bifurcaciones de recursos, atributos de Finder y archivos ._ con información del sistema) necesarios para que los archivos mantengan su comportamiento y apariencia al abrirse en otro Mac.
 
@@ -37,7 +37,7 @@ Windows — formato estándar, implementación cerrada. El ZIP que genera Window
 
 ### GNU/Linux — máximo grado de soberanía.
 
-Info-ZIP es código abierto con [licencia BSD-like]. Los extra fields que usa (permisos Unix 0x000d, UID/GID 0x7875) están documentados en el propio repositorio (proginfo/extrafld.txt). No hay ningún actor privado que controle el formato o la implementación: cualquier persona o organización puede reimplementar, auditar y extender el comportamiento. La soberanía es total en el sentido de que no hay dependencia de ningún vendor para comprender, reproducir o extender lo que se comprime.
+Info-ZIP es código abierto con [licencia BSD-like](https://www.gnu.org/licenses/bsd.es.html). Los extra fields que usa (permisos Unix 0x000d, UID/GID 0x7875) están documentados en el propio repositorio (proginfo/extrafld.txt). No hay ningún actor privado que controle el formato o la implementación: cualquier persona o organización puede reimplementar, auditar y extender el comportamiento. La soberanía es total en el sentido de que no hay dependencia de ningún vendor para comprender, reproducir o extender lo que se comprime.
 
 ## Auditor un ZIP de macOS en GNU/Linux
 
