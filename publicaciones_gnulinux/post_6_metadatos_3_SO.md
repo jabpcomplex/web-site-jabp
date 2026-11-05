@@ -17,7 +17,7 @@ Solo es visible en Windows o GNU/linux: En macOS esta carpeta es invisible por d
 No es necesaria en Windows: Si descargaste un ZIP desde un Mac y ves esta carpeta en tu sistema, puedes borrarla sin problema; tus archivos originales no se verán afectados. 
 Cómo evitarla: Si eres usuario de Mac y quieres compartir archivos limpios, usa la terminal con el comando: zip -r archivo.zip . -x '**/.*' -x '**/__MACOSX' o instala un compresor de terceros como Keka que no incluya estos metadatos. 
 
-Como te darás cuenta sólo si eres un usuario avanzado podrías evitar que crear esta carpeta al comprimir tus archivos y evitar los problemas que esto conlleva es por ello que realizo estos post. De tal manera intento alumbrar los espacios donde se encuentran las eslabones tecnológicos. Dado que si no somos concientes, la suma de los eslabones crean la cadena tecnológica o dependencia tecnológica con la que los tecnofacistas pretenden controlarnos.
+Como te darás cuenta sólo si eres un usuario avanzado podrías evitar crear esta carpeta al comprimir tus archivos y evitar los problemas que esto conlleva es por ello que realizo estos post. De tal manera intento alumbrar los espacios donde se encuentran las eslabones tecnológicos. Dado que si no somos concientes, la suma de los eslabones crean la cadena tecnológica o dependencia tecnológica con la que los tecnofacistas pretenden controlarnos.
 
 ## Diferencias al comprimir ZIP en cada plataforma
 
